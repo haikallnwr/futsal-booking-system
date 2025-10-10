@@ -1,0 +1,146 @@
+/* public/assets/css/custom-summernote.css */
+
+/* Mengatur font family utama untuk editor agar sesuai dengan Nunito (font Mazer) */
+.note-editor.note-frame,
+.note-editor .note-editable,
+.note-editor .note-toolbar .note-btn,
+.note-editor .note-statusbar .note-resizebar .note-icon-bar {
+    font-family: 'Nunito', sans-serif, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Menyesuaikan border dan shadow editor agar mirip form-control Mazer */
+.note-editor.note-frame {
+    border-radius: 0.3rem; /* Sesuaikan dengan border-radius form-control Mazer */
+    border: 1px solid #dce7f1; /* Warna border standar Mazer (light theme) */
+    box-shadow: none; /* Menghilangkan shadow default Summernote jika ada */
+}
+
+/* Styling area edit teks */
+.note-editor .note-editable {
+    font-size: 0.95rem; /* Sedikit lebih kecil agar konsisten dengan input Mazer */
+    line-height: 1.6;
+    padding: 0.75rem 1rem; /* Padding yang mirip dengan input Mazer */
+    background-color: #fff; /* Background putih standar */
+    color: #607080; /* Warna teks standar Mazer */
+}
+
+
+/* Styling toolbar Summernote */
+.note-toolbar {
+    background-color: #f8f9fa; /* Warna background toolbar yang sedikit berbeda */
+    border-bottom: 1px solid #dce7f1;
+    padding: 8px 5px 5px 10px; /* Sedikit padding untuk toolbar */
+}
+
+/* Styling tombol di toolbar */
+.note-toolbar .note-btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #607080; /* Warna ikon/tombol */
+    padding: 0.3rem 0.5rem; /* Padding tombol */
+    font-size: 0.85rem; /* Ukuran font tombol */
+    border-radius: 0.25rem; /* Border radius tombol */
+}
+
+.note-toolbar .note-btn:hover,
+.note-toolbar .note-btn:focus,
+.note-toolbar .note-btn.active { /* Tombol aktif atau saat di-hover */
+    background-color: #e9ecef; /* Warna hover/aktif yang lebih lembut */
+    color: #25396f; /* Warna ikon/tombol saat hover/aktif */
+    border: 1px solid #dce7f1;
+    box-shadow: none;
+}
+
+/* Styling dropdown di toolbar (seperti Font, Style) */
+.note-toolbar .note-dropdown-menu {
+    min-width: 150px; /* Lebar minimal dropdown */
+    font-size: 0.85rem;
+    border-radius: 0.3rem;
+    border-color: #dce7f1;
+}
+
+.note-toolbar .note-dropdown-menu .dropdown-item {
+    padding: 0.35rem 1rem;
+    color: #607080;
+}
+
+.note-toolbar .note-dropdown-menu .dropdown-item:hover,
+.note-toolbar .note-dropdown-menu .dropdown-item:focus {
+    background-color: #435ebe; /* Warna primary Mazer untuk hover/focus */
+    color: #fff;
+}
+
+/* Statusbar di bawah editor (jika ada, seperti resize handle) */
+.note-statusbar {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dce7f1;
+}
+
+.note-statusbar .note-resizebar {
+    height: 20px; /* Tinggi area resize */
+}
+
+.note-statusbar .note-resizebar .note-icon-bar {
+    border-top: 1px solid #adb5bd; /* Warna handle resize */
+    width: 20px;
+    margin-top: 2px;
+}
+
+/* Popover (untuk link, gambar, dll.) */
+.note-popover .popover-content,
+.note-popover .arrow {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.85rem;
+}
+
+.note-popover .popover-content .note-btn { /* Tombol di dalam popover */
+    color: #607080;
+    padding: 0.25rem 0.5rem;
+}
+.note-popover .popover-content .note-btn:hover {
+    color: #25396f;
+    background-color: #e9ecef;
+}
+
+/* Untuk tema gelap (jika Anda menggunakan app-dark.css Mazer) */
+/* Anda mungkin perlu menambahkan override lebih lanjut jika tema gelapnya aktif */
+.theme-dark .note-editor.note-frame {
+    border: 1px solid #45455c; /* Warna border Mazer dark mode */
+}
+.theme-dark .note-editor .note-editable {
+    background-color: #202129; /* Background Mazer dark mode */
+    color: #535353; /* Warna teks Mazer dark mode */
+}
+.theme-dark .note-toolbar {
+    background-color: #282933; /* Warna toolbar Mazer dark mode */
+    border-bottom: 1px solid #45455c;
+}
+.theme-dark .note-toolbar .note-btn {
+    color: #bababb;
+}
+.theme-dark .note-toolbar .note-btn:hover,
+.theme-dark .note-toolbar .note-btn:focus,
+.theme-dark .note-toolbar .note-btn.active {
+    background-color: #3f4051;
+    color: #fff;
+    border: 1px solid #45455c;
+}
+.theme-dark .note-toolbar .note-dropdown-menu {
+    background-color: #282933;
+    border-color: #45455c;
+}
+.theme-dark .note-toolbar .note-dropdown-menu .dropdown-item {
+    color: #bababb;
+}
+.theme-dark .note-toolbar .note-dropdown-menu .dropdown-item:hover,
+.theme-dark .note-toolbar .note-dropdown-menu .dropdown-item:focus {
+    background-color: #595c7a; /* Warna primary Mazer dark-safe untuk hover */
+    color: #fff;
+}
+.theme-dark .note-statusbar {
+    background-color: #282933;
+    border-top: 1px solid #45455c;
+}
+.theme-dark .note-statusbar .note-resizebar .note-icon-bar {
+    border-top: 1px solid #6c757d;
+}
