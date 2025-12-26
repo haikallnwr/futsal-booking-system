@@ -1,6 +1,6 @@
 # Futsal Field Booking System
 
-## 📖 About the Project
+## About the Project
 This project is a **web-based futsal field booking system** created to make it easier for users to find, check, and book futsal fields online.  
 Users can view available schedules, choose the field they want, and make reservations directly through the website.  
 
