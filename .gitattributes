@@ -6,20 +6,15 @@
 *.md diff=markdown
 *.php diff=php
 
+*.js linguist-vendored
+*.css linguist-vendored
+*.scss linguist-vendored
+
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
 
 
-public/**/*.js linguist-vendored
-public/**/*.css linguist-vendored
-public/**/*.scss linguist-vendored
 
 
-public/assets/vendor/** linguist-vendored
-public/assets/extensions/** linguist-vendored
-public/assets/js/** linguist-vendored
-public/assets/css/** linguist-vendored
 
-resources/**/*.js linguist-vendored
-resources/**/*.css linguist-vendored
