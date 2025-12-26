@@ -1,4 +1,4 @@
-# 🏆 Futsal Field Booking System
+# Futsal Field Booking System
 
 ## 📖 About the Project
 This project is a **web-based futsal field booking system** created to make it easier for users to find, check, and book futsal fields online.  
@@ -8,7 +8,7 @@ The system also helps connect **futsal field owners** and **customers**, providi
 
 ---
 
-## 🚀 Features
+## Features
 - View futsal field schedule availability  
 - Online field booking system  
 - Manage booking data easily  
@@ -16,7 +16,7 @@ The system also helps connect **futsal field owners** and **customers**, providi
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 - **Laravel10** 
 - **Bootstrap** 
 - **MySQL** 
@@ -24,19 +24,19 @@ The system also helps connect **futsal field owners** and **customers**, providi
 
 ---
 
-## 👥 Roles in the System
+## Roles in the System
 
 There are three main roles in this futsal booking system:
 
-### 🧑‍💼 1. Owner
+###  1. Owner
 The **Owner** is the main operator of the website who manages the entire system and services.  
 The owner is responsible for maintaining the platform, managing collaborations with futsal field partners, and ensuring the system runs smoothly for both users and admins.
 
-### 🧑‍🔧 2. Admin
+###  2. Admin
 The **Admin** represents the futsal field owner who has officially partnered with the company.  
 Each admin can manage their futsal field data through the system, such as updating field information, setting rental prices, managing bookings, and confirming payments from users.
 
-### 👤 3. User
+###  3. User
 The **User** is a customer who can browse available futsal fields, check schedules, and make online reservations.  
 Users can also make payments through the system and leave reviews after using the field.
 
