@@ -3,7 +3,7 @@
         <div class="sidebar-header position-relative">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="logo">
-                    <a href="/"><img src="{{ asset('assets/img/logo/logo.svg') }}" alt="Logo" srcset=""></a>
+                    <a href="/">AFUTA</a>
                 </div>
                 
                 <div class="sidebar-toggler  x">
